@@ -1,9 +1,9 @@
 "use client";
 
 import React from 'react';
-import TodoInput from '../components/TodoInput';
-import TodoList from '../components/TodoList';
-import useTodoStore from '../store/useTodoStore';
+import TodoInput from '././components/TodoInput';
+import TodoList from '././components/TodoList';
+import useTodoStore from '././store/useTodoStore';
 
 const HomePage: React.FC = () => {
   const { todos, addTodo, deleteTodo } = useTodoStore();
